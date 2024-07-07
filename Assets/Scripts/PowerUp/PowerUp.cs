@@ -78,9 +78,9 @@ public class PowerUp : MonoBehaviour, IDataPersistence
 
     private void CollectPowerUps()
     {
-        collected = true;
-        Destroy(gameObject);
-        GameEventManager.instance.PowerUpCollected();
+        // collected = true;
+        // Destroy(gameObject);
+        // GameEventManager.instance.PowerUpCollected();
         Debug.Log("POWER UP COLLECTED!");
     }
 
