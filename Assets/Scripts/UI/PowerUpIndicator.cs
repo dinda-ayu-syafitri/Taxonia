@@ -33,7 +33,7 @@ public class PowerUpIndicator : MonoBehaviour
         foreach (PowerUp powerUp in powerUps)
         {
             float remainingTime = powerUp.GetRemainingTime(); // Get the remaining time of each power-up
-            powerUpStatusText.text = "Remaining Time: " + remainingTime.ToString("F1"); // Display remaining time
+            powerUpStatusText.text = remainingTime.ToString("F1"); // Display remaining time
         }
 
     }
