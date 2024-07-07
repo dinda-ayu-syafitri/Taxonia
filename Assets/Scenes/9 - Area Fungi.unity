@@ -12011,7 +12011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf30ce1cf2e4f30be0123ab3e0a0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 8 - Video Protista
+  sceneToLoad: 10 - Fungi Mission Completed
   lastExitScene: 
   points: {fileID: 0}
 --- !u!1001 &1413237240

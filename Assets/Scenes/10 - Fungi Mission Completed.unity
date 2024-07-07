@@ -1018,7 +1018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b9300db90a246839fc1f3aea83051d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 5 - Video Plantae
+  nextScene: 11 - Video Protista
   medalNameObject: {fileID: 914614796}
   medalName: Medali Fungi
   medalImage: {fileID: 358898752}

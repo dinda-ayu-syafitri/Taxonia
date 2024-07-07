@@ -1018,11 +1018,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b9300db90a246839fc1f3aea83051d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 5 - Video Plantae
+  nextScene: 17 - Game Completed
   medalNameObject: {fileID: 914614796}
-  medalName: Medali Protista
+  medalName: Medali Monera
   medalImage: {fileID: 358898752}
-  medalImageSprite: {fileID: 21300000, guid: 3c2254c1bd33243abaa2ab729735db1c, type: 3}
+  medalImageSprite: {fileID: 21300000, guid: 4661b722450f047bfbcad7ffca1b2714, type: 3}
 --- !u!1 &1111705749
 GameObject:
   m_ObjectHideFlags: 0
