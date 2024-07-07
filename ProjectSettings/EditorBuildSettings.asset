@@ -18,14 +18,20 @@ EditorBuildSettings:
     path: Assets/Scenes/2 - Video Animalia.unity
     guid: 032d419cee69a4d78a11e03ffc03bb40
   - enabled: 1
-    path: Assets/Scenes/11 - Area Monera.unity
-    guid: 1ccf1a54056374c75ad00da9cee74983
+    path: Assets/Scenes/3 - Area Animalia.unity
+    guid: 0b52a3637baf84a63b3219d484aef285
   - enabled: 1
     path: Assets/Scenes/4 - Animalia Mission Completed.unity
     guid: 59ac573d322704b9d843945dc3e95c36
   - enabled: 1
+    path: Assets/Scenes/5 - Video Plantae.unity
+    guid: fe3a1ca8ad0e946a3981f6e8ca2be19e
+  - enabled: 1
     path: Assets/Scenes/6 - Area Plantae.unity
     guid: 60fecfec715c8462eb5b82ea2cd0350a
+  - enabled: 1
+    path: Assets/Scenes/7 - Plantae Mission Completed.unity
+    guid: be23ae4ff8f914351bb27d8b8a857c86
   - enabled: 1
     path: Assets/Scenes/8 - Video Fungi.unity
     guid: 8fdc89da511ad41d98197b741925df73
@@ -33,23 +39,35 @@ EditorBuildSettings:
     path: Assets/Scenes/9 - Area Fungi.unity
     guid: 9dbea837ef8a847d7bd57f70313f1bc8
   - enabled: 1
-    path: Assets/Scenes/11 - Video Protista.unity
-    guid: 0815ed47a1aea482bb9a290e95f6b1ab
+    path: Assets/Scenes/10 - Fungi Mission Completed.unity
+    guid: 020b74cb844d04443b4c7338203aba53
   - enabled: 1
-    path: Assets/Scenes/12 - Area Protista.unity
-    guid: 117e5f37087e4468e8d6c56eb89f210f
-  - enabled: 1
-    path: Assets/Scenes/3 - Area Animalia.unity
-    guid: 0b52a3637baf84a63b3219d484aef285
-  - enabled: 1
-    path: Assets/Scenes/10 - Video Monera.unity
+    path: Assets/Scenes/11 - Video Monera.unity
     guid: f6a7710adfe654fcab8e6ea31efbb70f
   - enabled: 1
-    path: Assets/Scenes/12 - Outro.unity
-    guid: e756b79f30ea647b5a42e5861195cfa1
+    path: Assets/Scenes/12 - Area Monera.unity
+    guid: 1ccf1a54056374c75ad00da9cee74983
   - enabled: 1
-    path: Assets/Scenes/13 - Game Over.unity
+    path: Assets/Scenes/13 - Monera Mission Completed.unity
+    guid: e4086a1c627f64727837e4fffaf3f219
+  - enabled: 1
+    path: Assets/Scenes/14 - Video Protista.unity
+    guid: 0815ed47a1aea482bb9a290e95f6b1ab
+  - enabled: 1
+    path: Assets/Scenes/15 - Area Protista.unity
+    guid: 117e5f37087e4468e8d6c56eb89f210f
+  - enabled: 1
+    path: Assets/Scenes/16 - Protista Mission Completed.unity
+    guid: 93f445ead360343c493268bbb44029c8
+  - enabled: 1
+    path: Assets/Scenes/17 - Game Completed.unity
     guid: bdad3b0b905a046b590cc25dba6daf0a
+  - enabled: 1
+    path: Assets/Scenes/18 - Outro Video.unity
+    guid: 748f9b868eae348d3ad8c2322013d68d
+  - enabled: 1
+    path: Assets/Scenes/Test Scene/17 - Outro.unity
+    guid: e756b79f30ea647b5a42e5861195cfa1
   - enabled: 1
     path: Assets/Scenes/Test Scene/Lobby.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
@@ -59,16 +77,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test Scene/Video Materi 1.unity
     guid: e529454680c104f3a96c9faed2664ae7
-  - enabled: 1
-    path: Assets/Scenes/- Protista Mission Completed.unity
-    guid: 93f445ead360343c493268bbb44029c8
-  - enabled: 1
-    path: Assets/Scenes/7 - Plantae Mission Completed.unity
-    guid: be23ae4ff8f914351bb27d8b8a857c86
-  - enabled: 1
-    path: Assets/Scenes/- Monera Mission Completed.unity
-    guid: e4086a1c627f64727837e4fffaf3f219
-  - enabled: 1
-    path: Assets/Scenes/10 - Fungi Mission Completed.unity
-    guid: 020b74cb844d04443b4c7338203aba53
   m_configObjects: {}
