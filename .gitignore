@@ -73,3 +73,6 @@ crashlytics-build.properties
 
 *.mp4
 *.resS
+*.mp4
+*.mp3
+*.wav
