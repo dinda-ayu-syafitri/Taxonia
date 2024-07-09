@@ -20,6 +20,10 @@ public class AudioManager : MonoBehaviour
         PlayMusic();
     }
 
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // No additional handling needed here for destruction
+    }
 
     public void PlayMusic()
     {
