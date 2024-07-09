@@ -18,10 +18,13 @@ public class FalseEmblem : MonoBehaviour, IDataPersistence
     private TextMeshPro organismText;
     public string organismName;
 
-        private SpriteRenderer spriteRenderer; // Reference to SpriteRenderer
+    private SpriteRenderer spriteRenderer; // Reference to SpriteRenderer
     public Sprite emblemImage; // Image to be assigned to SpriteRenderer
 
- private void Awake()
+    public AudioSource audioSource;
+    public AudioClip musicClip;
+
+    private void Awake()
     {
         organismText = GetComponentInChildren<TextMeshPro>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
@@ -34,13 +37,13 @@ public class FalseEmblem : MonoBehaviour, IDataPersistence
         {
             organismText.text = organismName;
         }
-       
+
 
         if (spriteRenderer != null && emblemImage != null)
         {
             spriteRenderer.sprite = emblemImage;
         }
-      
+
     }
 
     public void LoadData(GameData gameData)
@@ -72,7 +75,24 @@ public class FalseEmblem : MonoBehaviour, IDataPersistence
     private void CollectFalseEmblem()
     {
         collected = true;
-        Destroy(gameObject);
         GameEventManager.instance.FalseEmblemCollected();
+        transform.position = Vector3.one * 9999f;
+        PlayMusic();
+        StartCoroutine(WaitForMusicToEnd());
+    }
+
+       public void PlayMusic()
+    {
+        if (audioSource.clip != musicClip)
+        {
+            audioSource.clip = musicClip;
+        }
+        audioSource.Play();
+    }
+
+    private IEnumerator WaitForMusicToEnd()
+    {
+        yield return new WaitForSeconds(musicClip.length);
+        Destroy(gameObject);
     }
 }
