@@ -398,6 +398,10 @@ PrefabInstance:
       value: 15321d47-b2a2-4d5f-8163-9c9b6bef4691
       objectReference: {fileID: 0}
     - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 22fcd3fe141a84a0291269f3bd95abf0, type: 3}
+    - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
       propertyPath: organismName
       value: Psilotum nudum
       objectReference: {fileID: 0}
@@ -1754,6 +1758,10 @@ PrefabInstance:
       value: 5e383248-24cb-4d48-841c-41b4745122de
       objectReference: {fileID: 0}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: a1a27d6fb683f4da680589e86d80984b, type: 3}
+    - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Lactobacillus casei
       objectReference: {fileID: 0}
@@ -2948,6 +2956,10 @@ PrefabInstance:
       value: d92612c7-75db-45b8-9d20-f763ab779a01
       objectReference: {fileID: 0}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 5098f10f66e3f4c1d9637747a5ca5245, type: 3}
+    - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Eucheuma spinosum
       objectReference: {fileID: 0}
@@ -3025,6 +3037,10 @@ PrefabInstance:
       propertyPath: id
       value: 7418807c-aee8-4dcc-8328-0190fa9ec266
       objectReference: {fileID: 0}
+    - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 5098f10f66e3f4c1d9637747a5ca5245, type: 3}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Eucheuma spinosum
@@ -3514,6 +3530,10 @@ PrefabInstance:
       propertyPath: id
       value: b351f942-e7df-4c3b-950f-84abc293e878
       objectReference: {fileID: 0}
+    - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: a37b3b9f7c6ac4578848f117e8f7b1a1, type: 3}
     - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
       propertyPath: organismName
       value: Anthoceros natans
@@ -4352,6 +4372,10 @@ PrefabInstance:
       value: 3c069960-9ebf-45b5-820b-2128adadbee0
       objectReference: {fileID: 0}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: a48324181d99348f1b7ee673cccf9fe8, type: 3}
+    - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Volvariella volvacea
       objectReference: {fileID: 0}
@@ -5011,6 +5035,10 @@ PrefabInstance:
       value: 6d00e5d0-e954-4d2a-a3d4-cbbc2b7fd929
       objectReference: {fileID: 0}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 00fe9facdbc2f4bb68eeda5b2fc162e5, type: 3}
+    - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Spirogyra
       objectReference: {fileID: 0}
@@ -5540,6 +5568,10 @@ PrefabInstance:
       value: 6b1117ff-a9d6-4912-9a9b-dec5aab6ce97
       objectReference: {fileID: 0}
     - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: a6cfc5b901a4a48c083c95898e6b123f, type: 3}
+    - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
       propertyPath: organismName
       value: Oryza sativa
       objectReference: {fileID: 0}
@@ -5971,6 +6003,10 @@ PrefabInstance:
       propertyPath: id
       value: f42e6c33-2344-4ee3-9da9-8a6bbb4ff55b
       objectReference: {fileID: 0}
+    - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: c8ae94230c4a9401ea127a6e5257fc00, type: 3}
     - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
       propertyPath: organismName
       value: Polytrichum
@@ -6881,6 +6917,10 @@ PrefabInstance:
       propertyPath: id
       value: a5cc3a66-cba9-446f-aea3-1d00e4199ea9
       objectReference: {fileID: 0}
+    - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b3e02041810494e8ba07f1b1f871fef7, type: 3}
     - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
       propertyPath: organismName
       value: Marchantia
@@ -9734,6 +9774,10 @@ PrefabInstance:
       value: 6b0fa548-532d-4318-8776-ddd9cd17fa7b
       objectReference: {fileID: 0}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: bd3b5c46c668146049f3cd44cb87a43a, type: 3}
+    - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Vibrio cholerae
       objectReference: {fileID: 0}
@@ -10498,6 +10542,10 @@ PrefabInstance:
       value: 4d9af4aa-9ca2-4289-9d79-9bbcca6defa8
       objectReference: {fileID: 0}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 55724d604130940ba9efdcb360699218, type: 3}
+    - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Euglena viridis
       objectReference: {fileID: 0}
@@ -10579,6 +10627,10 @@ PrefabInstance:
       propertyPath: id
       value: e111f85e-6e65-403c-8af9-0997beebb367
       objectReference: {fileID: 0}
+    - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 28fa63673dd9e458f942a376cbee7d24, type: 3}
     - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
       propertyPath: organismName
       value: Lycopodium cernuum
@@ -11167,6 +11219,10 @@ PrefabInstance:
       propertyPath: id
       value: 20e61481-7a02-4f7e-9e90-a796e69b062f
       objectReference: {fileID: 0}
+    - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b53b8884cedce4c058cdd5c640e833ca, type: 3}
     - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
       propertyPath: organismName
       value: Cycas rumphii
@@ -11814,6 +11870,10 @@ PrefabInstance:
       value: 4e1cdb3e-d38b-4116-a3fc-f62c594bb608
       objectReference: {fileID: 0}
     - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 6614c8b4c44374c7f80767020991046d, type: 3}
+    - target: {fileID: 2561036277562872383, guid: 60960ae79a1684663bb98fe210e13563, type: 3}
       propertyPath: organismName
       value: Adiantum
       objectReference: {fileID: 0}
@@ -12444,6 +12504,10 @@ PrefabInstance:
       propertyPath: id
       value: 0d75e7a2-32f2-47d1-b294-4d6667177877
       objectReference: {fileID: 0}
+    - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
+      propertyPath: emblemImage
+      value: 
+      objectReference: {fileID: 21300000, guid: ac4aa118068274fe6bc6629820c54a7b, type: 3}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Amoeba proteus
