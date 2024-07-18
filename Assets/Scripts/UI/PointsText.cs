@@ -25,7 +25,7 @@ public class PointsText : MonoBehaviour, IDataPersistence
         this.totalPoints = data.totalPoints;
         this.emblemCollected = data.emblemCollected;
         this.falseEmblemCollected = data.falseEmblemCollected;
-        
+        this.currentScenePoints = data.currentScenePoints;
     }
 
     public void SaveData(GameData data)
@@ -33,6 +33,7 @@ public class PointsText : MonoBehaviour, IDataPersistence
         data.totalPoints = this.totalPoints;
         data.emblemCollected = this.emblemCollected;
         data.falseEmblemCollected = this.falseEmblemCollected;
+        data.currentScenePoints = this.currentScenePoints;
     }
     void Start()
     {
@@ -51,12 +52,15 @@ public class PointsText : MonoBehaviour, IDataPersistence
         emblemCollected++;
         totalPoints += 100;
         currentScenePoints += 100;
+        print(currentScenePoints);
     }
     private void OnFalseEmblemCollected()
     {
         falseEmblemCollected++;
         totalPoints -= 20;
         currentScenePoints -= 20;
+        print(currentScenePoints);
+
     }
     void Update()
     {

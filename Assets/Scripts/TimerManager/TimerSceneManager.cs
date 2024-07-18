@@ -6,11 +6,13 @@ public class TimerSceneManager : MonoBehaviour
     public GameObject restartModal;
     private PlayerController playerController;
 
+    public GameData gameData;
+
     void Start()
     {
         if (TimerManager.instance != null)
         {
-            TimerManager.instance.onTimeUp += showRestartModal; 
+            TimerManager.instance.onTimeUp += showRestartModal;
         }
         else
         {
@@ -29,7 +31,7 @@ public class TimerSceneManager : MonoBehaviour
         // Unsubscribe from events to prevent memory leaks
         if (TimerManager.instance != null)
         {
-            TimerManager.instance.onTimeUp -= showRestartModal; 
+            TimerManager.instance.onTimeUp -= showRestartModal;
         }
     }
 
@@ -37,7 +39,7 @@ public class TimerSceneManager : MonoBehaviour
     {
         if (playerController != null)
         {
-            playerController.FreezePlayer(); 
+            playerController.FreezePlayer();
         }
 
         restartModal.gameObject.SetActive(true);
@@ -46,6 +48,8 @@ public class TimerSceneManager : MonoBehaviour
     public void RestartScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        gameData.currentScenePoints = 0;
+        print(gameData.currentScenePoints);
 
         playerController.canMove = true;
     }
