@@ -60,7 +60,6 @@ public class PointsText : MonoBehaviour, IDataPersistence
         totalPoints -= 20;
         currentScenePoints -= 20;
         print(currentScenePoints);
-
     }
     void Update()
     {

@@ -2236,7 +2236,7 @@ PrefabInstance:
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: emblemImage
       value: 
-      objectReference: {fileID: 21300000, guid: 83e46aa54aa5849f8968d9c2b06e587c, type: 3}
+      objectReference: {fileID: 21300000, guid: a48324181d99348f1b7ee673cccf9fe8, type: 3}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Volvariella volvacea
@@ -5182,7 +5182,7 @@ PrefabInstance:
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: emblemImage
       value: 
-      objectReference: {fileID: 21300000, guid: 30b101a6578e14d08b28e4131696622c, type: 3}
+      objectReference: {fileID: 21300000, guid: b3e02041810494e8ba07f1b1f871fef7, type: 3}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Marchantia
@@ -7698,7 +7698,7 @@ PrefabInstance:
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: emblemImage
       value: 
-      objectReference: {fileID: 21300000, guid: 40a447a69371844ddbd19104fc50d5ea, type: 3}
+      objectReference: {fileID: 21300000, guid: 2728635e5677e4d6e960a686eb0cb0bd, type: 3}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: 'Penicillium notatum '
@@ -7996,7 +7996,7 @@ PrefabInstance:
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: emblemImage
       value: 
-      objectReference: {fileID: 21300000, guid: 30b101a6578e14d08b28e4131696622c, type: 3}
+      objectReference: {fileID: 21300000, guid: aa8d42a018a1044efae794a10e7389dc, type: 3}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Sargassum
@@ -8919,7 +8919,7 @@ PrefabInstance:
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: emblemImage
       value: 
-      objectReference: {fileID: 21300000, guid: 76059225ee7d142cc87bbabe11f90f73, type: 3}
+      objectReference: {fileID: 21300000, guid: 22fcd3fe141a84a0291269f3bd95abf0, type: 3}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Psilotum nudum
@@ -12430,7 +12430,7 @@ PrefabInstance:
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: emblemImage
       value: 
-      objectReference: {fileID: 21300000, guid: 16c2d66fe25a3460489806c77cee8f0c, type: 3}
+      objectReference: {fileID: 21300000, guid: 59d45a32bba9d416888389b9679154fd, type: 3}
     - target: {fileID: 1655912810085127900, guid: f0d1e81bb854f477baadf591bd016e8e, type: 3}
       propertyPath: organismName
       value: Murcor mucedo
