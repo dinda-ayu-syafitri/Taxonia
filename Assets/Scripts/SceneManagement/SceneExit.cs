@@ -1,3 +1,4 @@
+// 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,29 +10,27 @@ public class SceneExit : MonoBehaviour
     public string lastExitScene;
 
     public PointsText points;
+
     private void OnTriggerEnter(Collider other)
     {
-        if (SceneManager.GetActiveScene().name != "1 - Lobby")
+        if (other.gameObject.CompareTag("Player"))
         {
-            if (points.currentScenePoints >= 700)
+            // Save the current points data before changing the scene
+            DataPersistenceManager.instance.SaveGame();
+
+            PlayerPrefs.SetString("LastScene", lastExitScene);
+
+            if (SceneManager.GetActiveScene().name != "1 - Lobby")
             {
-                if (other.gameObject.CompareTag("Player"))
+                if (points.currentScenePoints >= 700)
                 {
-                    PlayerPrefs.SetString("LastScene", lastExitScene);
                     SceneManager.LoadScene(sceneToLoad);
                 }
             }
-        }
-        else
-        {
-            if (other.gameObject.CompareTag("Player"))
+            else
             {
-                PlayerPrefs.SetString("LastScene", lastExitScene);
                 SceneManager.LoadScene(sceneToLoad);
             }
         }
-
     }
 }
-
-

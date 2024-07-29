@@ -52,14 +52,14 @@ public class PointsText : MonoBehaviour, IDataPersistence
         emblemCollected++;
         totalPoints += 100;
         currentScenePoints += 100;
-        print(currentScenePoints);
+        print("current" + currentScenePoints);
     }
     private void OnFalseEmblemCollected()
     {
         falseEmblemCollected++;
         totalPoints -= 20;
         currentScenePoints -= 20;
-        print(currentScenePoints);
+        print("current" + currentScenePoints);
     }
     void Update()
     {

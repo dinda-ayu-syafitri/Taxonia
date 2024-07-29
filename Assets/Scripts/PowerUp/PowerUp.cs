@@ -66,7 +66,7 @@ public class PowerUp : MonoBehaviour, IDataPersistence
 
         // yield return new WaitForSeconds(10);
 
-        playerController.playerSpeed = 5.0f;
+        playerController.playerSpeed = 12.0f;
         Debug.Log("POWER UP DEACTIVATED!");
         GameEventManager.instance.PowerUpCollected();
 

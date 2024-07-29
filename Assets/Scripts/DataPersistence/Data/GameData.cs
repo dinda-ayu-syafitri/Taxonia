@@ -20,7 +20,7 @@ public class GameData
     {
         this.totalPoints = 0;
         this.emblemCollected = 0;
-        this.playerPosition = new Vector3(17.949f, -1.421f, -9.58f);
+        this.playerPosition = new Vector3(14.5f, -7.51f, 1.26f);
         this.currentScene = "01 - Intro";
         this.emblemItemCollected = new SerializableDictionary<string, bool>();
         this.falseEmblemItemCollected = new SerializableDictionary<string, bool>();

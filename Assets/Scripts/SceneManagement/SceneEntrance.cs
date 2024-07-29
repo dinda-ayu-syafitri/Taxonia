@@ -13,7 +13,7 @@ public class SceneEntrance : MonoBehaviour
         gameData.currentScenePoints = 0;
         if (PlayerPrefs.GetString("LastScene") == lastExitScene)
         {
-            PlayerScript.instance.transform.position = transform.position;
+            // PlayerScript.instance.transform.position = transform.position;
             PlayerScript.instance.transform.eulerAngles = transform.eulerAngles;
         }
     }
