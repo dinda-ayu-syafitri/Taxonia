@@ -10,8 +10,8 @@ public class Emblem : MonoBehaviour, IDataPersistence
     private void GenerateGUID()
     {
         id = System.Guid.NewGuid().ToString();
-
     }
+
     bool collected = false;
 
     private TextMeshPro organismText;
@@ -19,6 +19,11 @@ public class Emblem : MonoBehaviour, IDataPersistence
 
     private SpriteRenderer spriteRenderer;
     public Sprite emblemImage;
+
+
+    public AudioSource audioSource;
+
+    public AudioClip musicClip;
 
     private void Awake()
     {
@@ -33,12 +38,10 @@ public class Emblem : MonoBehaviour, IDataPersistence
             organismText.text = organismName;
         }
 
-
         if (spriteRenderer != null && emblemImage != null)
         {
             spriteRenderer.sprite = emblemImage;
         }
-
     }
 
     public void LoadData(GameData gameData)
@@ -70,7 +73,25 @@ public class Emblem : MonoBehaviour, IDataPersistence
     private void CollectEmblem()
     {
         collected = true;
-        Destroy(gameObject);
         GameEventManager.instance.EmblemCollected();
+        transform.position = Vector3.one * 9999f;
+        PlayMusic();
+        StartCoroutine(WaitForMusicToEnd());
     }
+
+    public void PlayMusic()
+    {
+        if (audioSource.clip != musicClip)
+        {
+            audioSource.clip = musicClip;
+        }
+        audioSource.Play();
+    }
+
+    private IEnumerator WaitForMusicToEnd()
+    {
+        yield return new WaitForSeconds(musicClip.length);
+        Destroy(gameObject);
+    }
+
 }

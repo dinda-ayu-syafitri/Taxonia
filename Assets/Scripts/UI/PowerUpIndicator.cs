@@ -29,13 +29,13 @@ public class PowerUpIndicator : MonoBehaviour
 
     void Update()
     {
-          PowerUp[] powerUps = FindObjectsOfType<PowerUp>(); // Find all instances of PowerUp
+        PowerUp[] powerUps = FindObjectsOfType<PowerUp>();
         foreach (PowerUp powerUp in powerUps)
         {
-            float remainingTime = powerUp.GetRemainingTime(); // Get the remaining time of each power-up
-            powerUpStatusText.text = "Remaining Time: " + remainingTime.ToString("F1"); // Display remaining time
+            float remainingTime = powerUp.GetRemainingTime();
+            powerUpStatusText.text = remainingTime.ToString("F1");
         }
 
     }
-    }
+}
 

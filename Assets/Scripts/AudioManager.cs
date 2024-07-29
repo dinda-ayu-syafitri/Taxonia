@@ -3,30 +3,26 @@ using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager instance;
     private AudioSource audioSource;
 
-    public AudioClip musicClip; // Add a reference to the music clip
+    public AudioClip musicClip;
 
     void Awake()
     {
-        if (instance == null)
+        if (FindObjectsOfType<AudioManager>().Length > 1)
         {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-            audioSource = GetComponent<AudioSource>();
-            SceneManager.sceneLoaded += OnSceneLoaded;
-            PlayMusic(); // Play music immediately on start
+            Destroy(gameObject); 
+            return;
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+
+        audioSource = GetComponent<AudioSource>();
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        PlayMusic();
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        PlayMusic();
+        // No additional handling needed here for destruction
     }
 
     public void PlayMusic()
@@ -34,7 +30,7 @@ public class AudioManager : MonoBehaviour
         if (audioSource.clip != musicClip)
         {
             audioSource.clip = musicClip;
-            audioSource.loop = true; // Enable looping if you want the music to repeat
+            audioSource.loop = true;
             audioSource.Play();
         }
     }

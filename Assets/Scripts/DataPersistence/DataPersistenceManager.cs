@@ -23,7 +23,6 @@ public class DataPersistenceManager : MonoBehaviour
 
 
     public static DataPersistenceManager instance { get; private set; }
-
     private void Awake()
     {
         if (instance != null)
@@ -32,6 +31,7 @@ public class DataPersistenceManager : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
+
         instance = this;
         DontDestroyOnLoad(this.gameObject);
 
@@ -125,7 +125,7 @@ public class DataPersistenceManager : MonoBehaviour
         }
 
 
-        if (!currentScene.Equals("0 - Main Menu"))
+        if (!currentScene.Equals("00 - Main Menu"))
         {
             this.gameData.currentScene = this.currentScene;
         }

@@ -13,16 +13,14 @@ public class SceneExit : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name != "1 - Lobby")
         {
-
-
-            if (points.currentScenePoints >= 700)
-            {
+            // if (points.currentScenePoints >= 700)
+            // {
                 if (other.gameObject.CompareTag("Player"))
                 {
                     PlayerPrefs.SetString("LastScene", lastExitScene);
                     SceneManager.LoadScene(sceneToLoad);
                 }
-            }
+            // }
         }
         else
         {

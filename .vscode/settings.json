@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "BACK UP - Klasifikasi Makhluk Hidup - Adventure Game.sln"
+    "dotnet.defaultSolution": "Taxonia.sln"
 }
