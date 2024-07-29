@@ -31,7 +31,13 @@ public class MainMenu : Menu
         saveSlotsMenu.ActivateMenu(true);
         this.DeactivateMenu();
     }
-    public void OnContinueGame()
+
+      public void OnExitClicked()
+    {
+        Application.Quit();
+    }
+    
+        public void OnContinueGame()
     {
         DisableMenuButtons();
         DataPersistenceManager.instance.SaveGame();

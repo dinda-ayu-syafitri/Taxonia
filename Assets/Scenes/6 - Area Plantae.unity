@@ -9239,7 +9239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf30ce1cf2e4f30be0123ab3e0a0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 7 - Fungi Mission Completed
+  sceneToLoad: 7 - Plantae Mission Completed
   lastExitScene: 
   points: {fileID: 0}
 --- !u!1001 &1408790377
@@ -9424,7 +9424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee819b0b32bf247548f3acf3b39dfeeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalTime: 10
+  totalTime: 120
 --- !u!1001 &1419955488
 PrefabInstance:
   m_ObjectHideFlags: 0

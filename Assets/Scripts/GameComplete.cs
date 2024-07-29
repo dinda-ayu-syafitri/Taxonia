@@ -2,32 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
-public class GameComplete : MonoBehaviour, IDataPersistence
+public class GameComplete : MonoBehaviour
 {
-
-    [SerializeField] private int totalPoints = 0;
-
-    private TextMeshProUGUI pointsText;
-
-    private void Awake()
+    public void onNext()
     {
-        pointsText = this.GetComponent<TextMeshProUGUI>();
+        Debug.Log("onNext called"); // Add this line
+        SceneManager.LoadScene("18 - Outro Video");
+        Debug.Log("Scene loaded"); // Add this line
     }
 
-    public void LoadData(GameData data)
-    {
-        this.totalPoints = data.totalPoints;
-        print("Total Points: " + this.totalPoints);
-    }
-
-    public void SaveData(GameData data)
-    {
-        data.totalPoints = this.totalPoints;
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        pointsText.text = totalPoints.ToString();
-    }
 }
