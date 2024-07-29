@@ -48,9 +48,6 @@ public class TimerSceneManager : MonoBehaviour
     public void RestartScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        gameData.currentScenePoints = 0;
-        print(gameData.currentScenePoints);
-
         playerController.canMove = true;
     }
 }

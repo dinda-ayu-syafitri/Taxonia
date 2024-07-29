@@ -60,7 +60,7 @@ public class PowerUp : MonoBehaviour, IDataPersistence
         while (remainingTime > 0)
         {
             remainingTime -= Time.deltaTime;
-            playerController.playerSpeed = 10.0f;
+            playerController.playerSpeed = 17.0f;
             yield return null;
         }
 

@@ -93,8 +93,8 @@ public class PlayerController : MonoBehaviour, IDataPersistence
     public void FreezePlayer()
     {
         canMove = false;
-        animator.SetBool("isMove", false);  
-        playerVelocity = Vector3.zero; 
+        animator.SetBool("isMove", false);
+        playerVelocity = Vector3.zero;
     }
 
 }

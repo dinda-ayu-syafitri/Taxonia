@@ -153,7 +153,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!114 &7473002279288169555
 MonoBehaviour:
@@ -185,7 +185,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 21300000, guid: cc7bd3256a4114f70be939989302a630, type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: 8fc0ca5dde72c455282af6e44de67a02, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: a114a0770805f4eebb9d9aa8037e999f, type: 3}
     m_SelectedSprite: {fileID: 21300000, guid: 4681cf881cc8042e38ef091e7ef1e7c9, type: 3}
     m_DisabledSprite: {fileID: 21300000, guid: 6954a10fc15b04ff38cce491c3a4c6bd, type: 3}
   m_AnimationTriggers:
@@ -564,8 +564,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280768379
-  m_fontColor: {r: 0.48235294, g: 0.34117648, b: 0.15294118, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
