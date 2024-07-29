@@ -39,25 +39,25 @@ public class GameData
                 return 0;
             case "3 - Area Animalia":
                 return 10;
-            case "4 - Video Plantae":
+            case "5 - Video Plantae":
                 return 20;
-            case "5 - Area Plantae":
+            case "6 - Area Plantae":
                 return 30;
-            case "6 - Video Fungi":
+            case "8 - Video Fungi":
                 return 40;
-            case "7 - Area Fungi":
+            case "9 - Area Fungi":
                 return 50;
-            case "8 - Video Protista":
+            case "11 - Video Protista":
                 return 60;
-            case "9 - Area Protista":
+            case "12 - Area Protista":
                 return 70;
-            case "10 - Video Monera":
+            case "14 - Video Monera":
                 return 80;
-            case "11 - Area Monera":
+            case "15 - Area Monera":
                 return 90;
-            case "12 - Outro":
+            case "17 - Game Completed":
                 return 100;
-            case "13 - Game Over":
+            case "18 - Outro Video":
                 return 100;
             default:
                 return 0;
