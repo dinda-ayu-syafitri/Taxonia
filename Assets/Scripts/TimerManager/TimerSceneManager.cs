@@ -26,6 +26,7 @@ public class TimerSceneManager : MonoBehaviour
         }
     }
 
+
     void OnDestroy()
     {
         // Unsubscribe from events to prevent memory leaks

@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 23188429-267f-4def-add4-266dc6883534
-  organismName: 
+  organismName: s
   emblemImage: {fileID: 0}
   audioSource: {fileID: 1402775473281038451}
   musicClip: {fileID: 8300000, guid: 325f33abedf6f426caf765842b6a4619, type: 3}

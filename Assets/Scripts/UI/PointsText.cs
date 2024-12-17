@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PointsText : MonoBehaviour, IDataPersistence
 {
@@ -15,6 +16,8 @@ public class PointsText : MonoBehaviour, IDataPersistence
 
     private TextMeshProUGUI pointsText;
 
+    public GameObject restartModal;
+
     private void Awake()
     {
         pointsText = this.GetComponent<TextMeshProUGUI>();
@@ -25,7 +28,7 @@ public class PointsText : MonoBehaviour, IDataPersistence
         this.totalPoints = data.totalPoints;
         this.emblemCollected = data.emblemCollected;
         this.falseEmblemCollected = data.falseEmblemCollected;
-        this.currentScenePoints = data.currentScenePoints;
+        // this.currentScenePoints = data.currentScenePoints;
     }
 
     public void SaveData(GameData data)
@@ -33,7 +36,7 @@ public class PointsText : MonoBehaviour, IDataPersistence
         data.totalPoints = this.totalPoints;
         data.emblemCollected = this.emblemCollected;
         data.falseEmblemCollected = this.falseEmblemCollected;
-        data.currentScenePoints = this.currentScenePoints;
+        // data.currentScenePoints = this.currentScenePoints;
     }
     void Start()
     {
@@ -64,5 +67,23 @@ public class PointsText : MonoBehaviour, IDataPersistence
     void Update()
     {
         pointsText.text = totalPoints.ToString();
+
+        if (currentScenePoints == 640)
+        {
+            showRestartModal();
+        }
+
     }
+
+    void showRestartModal()
+    {
+        restartModal.gameObject.SetActive(true);
+        print("Restart");
+    }
+
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
 }

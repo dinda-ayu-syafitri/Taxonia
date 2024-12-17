@@ -7,6 +7,8 @@ public class SceneEntrance : MonoBehaviour
 {
     public string lastExitScene;
     public GameData gameData;
+    public PointsText currentScenePoints;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +17,8 @@ public class SceneEntrance : MonoBehaviour
         {
             // PlayerScript.instance.transform.position = transform.position;
             PlayerScript.instance.transform.eulerAngles = transform.eulerAngles;
+            currentScenePoints.currentScenePoints = 0;
+            print("Test " + currentScenePoints);
         }
     }
 
